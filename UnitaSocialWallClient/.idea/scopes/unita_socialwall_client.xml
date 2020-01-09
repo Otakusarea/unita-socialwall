@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="unita-socialwall-client" pattern="src[app]:at.floriantaurer.unitasocialwallclient..*||src[app]:at.floriantaurer.unitasocialwallclient.fragments..*||src[app]:at.floriantaurer.unitasocialwallclient.rest..*||src[app]:at.floriantaurer.unitasocialwallclient.utils..*||src[app]:menu..*||src[app]:layout..*" />
+</component>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2019. Florian Taurer.
+  ~
+  ~ This file is part of Unita SDK.
+  ~
+  ~ Unita is free a SDK: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Unita is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Unita.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item
+        android:id="@+id/pair_with_beacon"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_info_outline_white_48dp"
+        android:title="Pairing"/>-->
+    <item
+        android:id="@+id/open_contacts"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_contacts_white_48"
+        android:title="Contacts"/>
+    <item
+        android:id="@+id/open_paired_beacons"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@drawable/unita_icon_white"
+        android:title="">
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_exit_to_app_white_48dp"
+        android:title="">
+    </item>
+
+</menu>

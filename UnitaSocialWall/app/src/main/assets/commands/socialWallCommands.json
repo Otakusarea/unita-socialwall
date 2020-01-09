@@ -1,0 +1,7 @@
+[
+  {"commandcode": "ymrGn29y","function": "getUrlAllMessages"},
+  {"commandcode": "dSmXfu3C","function": "getUrlAllBroadcastMsg"},
+  {"commandcode": "zNYKYr3q","function": "getUrlAllMsgContact"},
+  {"commandcode": "DTauTJj8","function": "getLastLocalMsg"},
+  {"commandcode": "qG7SWLj2","function": "tryToPairWithUser"}
+]

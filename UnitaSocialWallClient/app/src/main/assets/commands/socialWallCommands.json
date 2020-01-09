@@ -1,0 +1,6 @@
+[
+  {"function": "getUrlAllMsg"},
+  {"function": "getUrlAllBroadcastMsg"},
+  {"function": "getUrlAllMsgContact"},
+  {"function": "getLastLocalMsg"}
+]

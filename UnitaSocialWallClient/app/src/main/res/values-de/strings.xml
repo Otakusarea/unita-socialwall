@@ -1,0 +1,100 @@
+<!--
+  ~ Copyright (c) 2019. Florian Taurer.
+  ~
+  ~ This file is part of Unita SDK.
+  ~
+  ~ Unita is free a SDK: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Unita is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Unita.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="app_name">SocialWall</string>
+    <string name="permission_request_explanation_positive">Das Einstellungsmenü öffenen</string>
+    <string name="permission_request_explanation_negative">Nein danke</string>
+    <string name="permissionRequestExplanation">Die Mikrofonberechtigung wird benötigt um Nachrichten zu empfangen.</string>
+    <string name="on_receiving_listening_permission_required">Data-over-sound-Berechtigung wird benötigt um Nachrichten zu empfangen.</string>
+    <string name="on_sending_sending_permission_required">Data-over-sound-Berechtigung wird benötigt um Nachrichten zu senden.</string>
+    <string name="decoder_start_text">Zuhören starten...</string>
+    <string name="title_home">Empfangen</string>
+    <string name="title_dashboard">Verbinden</string>
+    <string name="title_notifications">Einstellungen</string>
+    <string name="send_message_no_receiver">Bitte verbinden Sie sich zuerst mit einem Beacon!</string>
+    <string name="nav_title_contact">Kontakt</string>
+    <string name="layout_no_contacts">Noch keine Kontakte hinzugefügt!</string>
+    <string name="nav_send">Senden</string>
+    <string name="contact_delete_dialog_title">Kontakteintrag löschen</string>
+    <string name="contact_delete_dialog_message">Wollen Sie diesen Kontakt wirklich löschen?</string>
+    <string name="contact_add_dialog_title">Kontakt hinzufügen</string>
+    <string name="contact_add_dialog_message">Bitte fügen Sie einen Kontakt für die Kommunikation hinzu!</string>
+    <string name="contact_add_dialog_positive_button">Hinzufügen</string>
+    <string name="contact_add_dialog_negative_button">Abbrechen</string>
+    <string name="paired_device_dialog_message">Wollen Sie sich mit diesem Beacon $s verbinden?</string>
+    <string name="paired_device_dialog_positive_button">Ja</string>
+    <string name="paired_device_dialog_negative_button">Nein</string>
+    <string name="paired_beacon_remove_title">Entferne das verbundene Beacon</string>
+    <string name="paired_beacon_remove_message">Wollen Sie das Beacon entfernen?</string>
+    <string name="paired_beacon_snackbar_message">Beacon %s hat die Nachricht empfangen!</string>
+    <string name="paired_beacon_snackbar_success">Beacon %s ist verbunden!</string>
+    <string name="snackbar_text_beacon_not_get_message">Das Beacon konnte die Nachricht nicht empfangen. Bitte probieren Sie es nochmal.</string>
+    <string name="dialog_message_delete_title">Nachrichteneintrag löschen</string>
+    <string name="dialog_message_delete_message">Wollen Sie diese Nachricht löschen?</string>
+    <string name="dialog_command_latest_local_title">Empfänger auswählen</string>
+    <string name="dialog_command_latest_local_message">Wählen Sie ein Beacon aus!</string>
+    <string name="dialog_command_latest_local_pos_button">Senden</string>
+    <string name="dialog_command_latest_local_neg_button">Abbrechen</string>
+    <string name="dialog_command_all_public_title">Empfänger auswählen</string>
+    <string name="dialog_command_all_public_message">Wählen Sie ein Beacon aus!</string>
+    <string name="dialog_command_all_public_pos_button">Senden</string>
+    <string name="dialog_command_all_public_neg_button">Abbrechen</string>
+    <string name="state_searching_beacons">nach Beacon suchen</string>
+    <string name="state_waiting_pairing">auf das Verbinden warten</string>
+    <string name="state_pairing_successful">Verbinden erfolgreich</string>
+    <string name="state_pairing_progress">Verbinden in Gange</string>
+    <string name="dialog_title_set_preset">Voreinstellungen wählen</string>
+    <string name="message_adapter_from">Von (SocialWall-ID %d)</string>
+    <string name="message_adapter_to">An (SocialWall-ID %d)</string>
+    <string name="message_adapter_to_all">an alle</string>
+    <string name="service_status_running">läuft</string>
+    <string name="addcontact_socialwall_number">SocialWall Nummer</string>
+    <string name="enter_contact_socialwall_number">Geben Sie die SocialWall Nummer des Kontakts ein!</string>
+    <string name="addcontact_name">Name</string>
+    <string name="enter_contact_name">Geben Sie den Kontaktnamen ein!</string>
+    <string name="latest_local_contact">Kontakt</string>
+    <string name="latest_local_receiving_beacon">Empfangendes Beacon</string>
+    <string name="all_public_receiving_beacon">Empfangendes Beacon</string>
+    <string name="login_title">Einloggen</string>
+    <string name="login_button_submit">Bestätigen</string>
+    <string name="login_hint_text">Bitte geben Sie einen Anmeldenamen ein!</string>
+    <string name="button_get_all_public_messages">alle öffentlichen Nachrichten bekommen</string>
+    <string name="button_get_latest_private_message">die letzte private Nachricht bekommen</string>
+    <string name="no_messages_received_yet">Noch keine Nachrichten empfangen!</string>
+    <string name="no_beacons_added_yet">Noch keine Beacons hinzugefügt!</string>
+    <string name="button_search_for_beacons">Nach Beacons suchen</string>
+    <string name="send_local_beacon">Lokales Beacon wählen</string>
+    <string name="send_contact_partner">Eine private Nachricht hinterlassen für</string>
+    <string name="send_message">Nachricht</string>
+    <string name="send_hint_enter_message">Nachricht eingeben!</string>
+    <string name="button_send">Senden</string>
+    <string name="public_message">Öffentliche Nachricht</string>
+    <string name="private_message">Private Nachricht</string>
+    <string name="settings_preset_label">Voreinstellung</string>
+    <string name="settings_preset_title">Standardvoreinstellung</string>
+    <string name="settings_volume">Lautstärke</string>
+    <string name="settings_number_of_frequencies">Anzahl an Frequenzen</string>
+    <string name="settings_maximum_message_length">Maximale Nachrichtenlänge</string>
+    <string name="settings_frequency_space">Frequenzabstand</string>
+    <string name="settings_pause_period">Pausenlänge</string>
+    <string name="settings_bit_period">Bitlänge</string>
+    <string name="settings_base_frequency">Basisfrequenz</string>
+    <string name="settings_change_preset_button">Voreisntellung ändern</string>
+</resources>
